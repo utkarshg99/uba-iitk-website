@@ -62,9 +62,10 @@ var config = {
       }
     },
     mounted () {
-      db.collection("").get().then((querySnapshot) => {
+      db.collection("news").get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           this.newscontent.push(doc.data());
+        //   console.log(this.newscontent);
         });
       });
     }

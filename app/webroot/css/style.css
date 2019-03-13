@@ -336,26 +336,6 @@ padding-left: 4px;
     border: 2px solid #FFF;
     background-color: transparent;
 }
-.news-adopt-village{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/d11153.png?version=1.0.0) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-elite{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/elite.jpeg?version=1.0.0) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-biogasday{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/biogasday.jpg) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-gian{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/gyan.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
 .image-caption{
   margin-top: -15px;
 }
@@ -787,106 +767,6 @@ ul#continents li a:hover span {
 
 .news{
   min-height: 239px;
-}
-.news1{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/swachhta.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-
-}
-.news2{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/dantewara.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news3{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/edu.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news4{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/brainstorming.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news5{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/chancellor.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news6{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/cowdung.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-
-.news7{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/techday.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-
-}
-.news8{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/iisf.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news9{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/cow.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news10{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/straw.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news11{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/chancellor.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news12{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/cowdung.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-
-}
-.news-startup-swadeshi{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/swadeshi-start-ups.jpg) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-uba2{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/uba2.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-antaram{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/antaram.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-seg{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/seg.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
-}
-.news-biogas{
-  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/biogas.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
-  background-size: cover;
 }
 /*404 error page css*/
 #notfound {
