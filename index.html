@@ -128,14 +128,8 @@
 <div class="row">
   <div class="col-md-9 pr-md-0">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+      <ol class="carousel-indicators" id="main-slider-nos-vue">
+        <li data-target="#carouselExampleIndicators" :data-slide-to="cnt.num" :class="cnt.class" v-for="cnt in msnos"></li>
       </ol>
       <div class="carousel-inner" id="carousel-vue">
           <div :class="cont.class"  v-for="cont in carcont">
@@ -161,71 +155,20 @@
 
   <div class="col-md-3 pl-md-0">
     <div id="carouselwhatsnew" class="carousel slide" data-ride="carousel" data-interval="4000">
-      <ol class="carousel-indicators my-carousel-indicators">
-        <li data-target="#carouselwhatsnew" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselwhatsnew" data-slide-to="1"></li>
-        <li data-target="#carouselwhatsnew" data-slide-to="2"></li>
-        <li data-target="#carouselwhatsnew" data-slide-to="3"></li>
+      <ol class="carousel-indicators my-carousel-indicators" id="newslider-vue">
+        <li data-target="#carouselwhatsnew" :data-slide-to="wthnw.num" :class="wthnw.class" v-for="wthnw in whatsnew"></li>
       </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div class="carousel-inner" id="whatsnew-vue">
+        <div :class="whcnt.class" v-for="whcnt in whatsnewcont">
           <div class="whatsnew themebgcolor">
             <div class="whatsnew-container text-center">
               <div class="whatsnew-text">
                 <h3 class="text-white p-3 text-center">WHAT'S NEW</h3>
                 <p class="text-white p-3">
-                  Revised third list of Participating Institutions Selected under UBA 2.0 Program 2018-2019.
+                  {{whcnt.content}}
                 </p>
                 <div class="whatsnew-action">
-                  <a href="./app/webroot/files/Revised_Third_list_of_Participating_Institutes_selected_under_UBA_2018-19.pdf" target="_blank" class="btn btn-primary my-btn px-5"> View </a>
-                  
-                </div>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="whatsnew themebgcolor">
-            <div class="whatsnew-container text-center">
-              <div class="whatsnew-text">
-                <h3 class="text-white p-3 text-center">WHAT'S NEW</h3>
-                <p class="text-white p-3">
-                  Technology development projects initiated in adopted villages.
-                </p>
-                <div class="whatsnew-action">
-                  <a href="technical_projects" target="" class="btn btn-primary my-btn px-5"> View </a>
-                  
-                </div>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="whatsnew themebgcolor">
-            <div class="whatsnew-container text-center">
-              <div class="whatsnew-text">
-                <h3 class="text-white p-3 text-center">WHAT'S NEW</h3>
-                <p class="text-white p-3">
-                  Second list of participating institutions selected under UBA 2.0 program 2018-2019.
-                </p>
-                <div class="whatsnew-action">
-                  <a href="./app/webroot/files/Second list of Participating Institutes selected under UBA-2.0 program for 2018-2019.pdf" target="_blank" class="btn btn-primary my-btn px-5"> View </a>
-                  
-                </div>
-              </div>  
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="whatsnew themebgcolor">
-            <div class="whatsnew-container text-center">
-              <div class="whatsnew-text">
-                <h3 class="text-white p-3 text-center">WHAT'S NEW</h3>
-                <p class="text-white p-3">
-                  MHRD circular to higher education institutions to facilitate UBA activities.
-                </p>
-                <div class="whatsnew-action">
-                  <a href="./app/webroot/files/circulars/facilitating the UBA.pdf" target="_blank" class="btn btn-primary my-btn px-5"> View </a>
+                  <a :href="whcnt.href" target="_blank" class="btn btn-primary my-btn px-5"> View </a>
                 </div>
               </div>  
             </div>

@@ -83,3 +83,48 @@ var config = {
       });
     }
   });
+  var whtnew = new Vue({
+    el: '#newslider-vue',
+    data () {
+      return {
+        whatsnew: []
+      }
+    },
+    mounted () {
+      db.collection("slider-numbers").doc("whats-new").collection("numbers").get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          this.whatsnew.push(doc.data());
+        });
+      });
+    }
+  });
+  var whtnewcntnt = new Vue({
+    el: '#whatsnew-vue',
+    data () {
+      return {
+        whatsnewcont: []
+      }
+    },
+    mounted () {
+      db.collection("slider-numbers").doc("whats-new").collection("content").get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          this.whatsnewcont.push(doc.data());
+        });
+      });
+    }
+  });
+  var mnscnt = new Vue({
+    el: '#main-slider-nos-vue',
+    data () {
+      return {
+        msnos: []
+      }
+    },
+    mounted () {
+      db.collection("slider-numbers").doc("main-slider").collection("numbers").get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          this.msnos.push(doc.data());
+        });
+      });
+    }
+  });
