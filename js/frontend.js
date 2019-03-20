@@ -128,3 +128,24 @@ var config = {
       });
     }
   });
+  var bottomcontent = new Vue({
+    el: '#bottom-carousel-vue',
+    data () {
+      return {
+        bcvuecnt: [],
+        bcvuemodal:[]
+      }
+    },
+    mounted () {
+      db.collection("gallery").get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          this.bcvuecnt.push(doc.data());
+        });
+      });
+      db.collection("gallery").get().then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          this.bcvuemodal.push(doc.data());
+        });
+      });
+    }
+  });
