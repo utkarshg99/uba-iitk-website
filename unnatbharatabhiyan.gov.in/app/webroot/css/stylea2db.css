@@ -1,0 +1,1050 @@
+
+body{font-family: 'Poppins', sans-serif;}
+.themecolor{
+	color: #fe901f!important;
+}
+.themebgcolor{
+	background-color:#fe901f!important;
+}
+.colorwhite{color:white!important;}
+.colorgrey{color:#777777!important;}
+.myjumbo{
+	background-color: #e9ecef!important;
+}
+.myjumbo input{
+  height: 24px;
+}
+.header {
+  font-family: 'Poppins', medium;
+  text-transform: uppercase;
+  border-bottom: solid 0.13em #fe901f;
+  margin-bottom: 1.5rem;
+  padding-bottom: 10px;
+}
+.zones{
+  top: 430px;
+  right:20px;
+  position: absolute;
+}
+.my-btn{
+    background: #fe901f!important;
+    background-color: #fe901f!important;
+    color: white;
+    border: #fe901f!important;
+    border-color: #fe901f!important;
+    padding: .5rem 1.3rem;
+    border-radius: 0px;
+}
+.my-btn:hover{background-color: #cb7318 !important;border-color: #cb7318 !important;}
+
+.readmore-btn{margin: 5px 0px 20px;}
+.btn-wide{
+  padding: .5rem 5rem;
+}
+.my-btn1{
+    background: #cb7318;
+    color: white;
+    border-color: #cb7318;
+    padding: .5rem 1.3rem;
+    border-radius: 20px;
+}
+.my-btn1:hover{background-color: #fe901f;border-color: #fe901f;}
+.my-btn2{
+    background: #87776f;
+    color: white;
+    border-color: #87776f;
+    border-radius: 5px;
+    height: 32px;
+    font-size: 0.8rem;
+}
+.my-btn2:hover{background-color: #fe901f;border-color: #fe901f;}
+.navbar-nav > li >a{
+  color:white!important;
+  text-transform: uppercase;
+  font-family: 'Poppins', medium;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+a{
+  color: #fe901f;
+  
+}
+a:hover {
+    color: #cb7318;
+    
+}
+.dropdown-item {
+  color:#fff;
+  }
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #fe901f;
+}
+.dropdown-menu {
+  color: #fff;
+  background-color: #cb7318;
+}
+/*dropdown toggle on hover rather than on clicking
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ */
+.my-a>li>a{color: #cb7318;
+
+}
+.my-a>li>a:hover {color: #fe901f;}
+.my-a {padding-left: 1.2rem;
+
+}
+.my-a>li{padding-bottom: 22px;}
+.caption{
+    position: absolute;
+    right: 15%;
+    bottom: -30px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 10px #000;
+    text-transform: uppercase;
+}
+.captionb{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #cb7318;
+  margin-top: 1rem;
+}
+.footer{background: #cb7318;}
+.btn-group > .btn-default:focus{
+  box-shadow: none;
+}
+
+.fa{color:white;}
+.grow{
+transition: 0.5s ease;
+}
+
+.grow:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 0.5s ease;
+}
+.reduce{
+transition: 0.5s ease;
+}
+
+.reduce:hover{
+-webkit-transform: scale(0.9);
+-ms-transform: scale(0.9);
+transform: scale(0.9);
+transition: 0.5s ease;
+}
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 100px;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 40px;
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: .8;
+}
+.breadcrumb {
+  background-color: #fff;
+  padding: 0 0 5px;
+  border-bottom: solid #c0c0c0 1px;
+  border-radius: 0;
+}
+.nav-tabs {
+    border-bottom: 0px solid #ddd;
+}
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #6b6b6b;
+    background-color: #fff;
+    border-color: #ddd #ddd #fff;
+    border-bottom: 2px solid #fe901f;
+}
+.nav-tabs>.nav-item>a{
+  color:#c7c7cc;
+}
+.my-form > input[type="email"], .my-form > input[type="password"]{
+  height: 45px;
+}
+.my-form > input[type="email"]:focus, .my-form > input[type="password"]:focus{
+  border-color: #fe901f;
+  box-shadow: 0 0px 0px #fe901f inset, 0 0 8px #fe901f;
+  outline: 0 none;
+  border-style: solid;
+}
+.a-unstyled{
+  color:white;
+}
+.a-unstyled:hover{
+  color:white;
+}
+
+:focus {
+    outline: #fe901f auto 5px;
+}
+
+th{
+  vertical-align: middle!important;
+}
+option{
+  width:300px;
+}
+#homeblocks .block-item {
+    min-height: 360px;
+    border: 1px solid #e8e8e8;
+    border-bottom: 2px solid #e8e8e8;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    -webkit-box-shadow: 0 0 5px 0 #e8e8e8;
+    -moz-box-shadow: 0 0 5px 0 #e8e8e8;
+    box-shadow: 0 0 5px 0 #e8e8e8;
+}
+#homeblocks .block-item .desc {
+    padding: 5px;
+    
+}
+.short-desc{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.headerlink{
+  text-decoration: none!important;
+}
+.headerlink:hover{
+  text-decoration: none!important;
+}
+.headerlink > .headerhindi, .headerlink > .headerslogan{
+  color: #212529;
+}
+.footprints
+{
+  padding: 20px;
+}
+.statistics{
+  color:#7c7c7c;
+  
+}
+.counter{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+ 
+}
+.video-thumbnail::before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: "\f01d";
+    font-family: FontAwesome;
+    font-size: 100px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+ 
+.video-thumbnail:hover::before {
+    color: #eee;
+}
+#marqueecontainer{
+position: relative;
+/*width: 100%; marquee width */
+height: 80%; /*marquee height */
+min-height: 200px;
+background-color: white;
+overflow: hidden;
+/*border: 3px solid orange; */
+padding: 2px;
+padding-left: 4px;
+}
+.carousel-custom li{
+  border-radius: 12px;
+  width: 8px;
+  height: 8px;
+  /*background-color: #404040;*/
+  bottom: -3.2rem;
+}
+#carouselwhatsnew, #carouselwhatsnew.carousel-inner, #carouselwhatsnew .carousel-inner, #carouselwhatsnew .carousel-inner .carousel-item, .whatsnew{
+  height: 100%;
+  min-height: 260px;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*left: 68%;*/
+  /*background-color: #21252970!important*/
+}
+.whatsnew-text h3{
+  background-color: #cb7318!important;
+}
+.whatsnew-text p{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.dot {
+  height: 14px;
+  width: 14px;
+  border: solid 2px white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot.active{
+  background-color: #fff;
+}
+.whatsnew-text a{
+  border: solid 1px white !important;
+}
+.whatsnew-action{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 65px;
+}
+.my-carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+}
+.news-adopt-village{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/d111538525.png?version=1.0.0) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-elite{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/elite8525.jpg?version=1.0.0) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-biogasday{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/biogasday.jpg) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-gian{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/gyan.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.image-caption{
+  margin-top: -15px;
+}
+.bg-gpdp{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../../../files/gpdp.jpg) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.bg-gpdp .text {
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* CSS for UBA networks */ 
+.network{
+list-style: none;
+background: url(../images/ubanetwork2.png) no-repeat 0 0;
+position: relative;
+width: 542px;
+height: 700px;
+margin: 0;
+padding: 0;
+background-size: cover;
+}
+
+.sponsoring{
+  position: absolute;
+  top: 4px;
+  right: 148px;
+  
+}
+.nsc{
+  position: absolute;
+  top: 78px;
+  right: 148px;
+}
+.ci{
+  position: absolute;
+  top: 238px;
+  right: 178px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.nodal{
+  position: absolute;
+  top: 238px;
+  
+}
+.seg{
+  position: absolute;
+  top: 238px;
+  right: 0;
+  }
+.mi{
+  position: absolute;
+  top: 323px;
+  right: 188px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: none;
+}
+.pi{
+  position: absolute;
+  top: 346px;
+  right: 181px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.implement{
+  position: absolute;
+  top: 396px;
+  right: 135px;
+  width: 285px;
+  }
+  .district{
+  position: absolute;
+  top: 462px;
+  right: 344px;
+  font-size: 0.8rem;
+  padding: 4px 20px;
+}
+ .panchayati{
+  position: absolute;
+  top: 462px;
+  right: 203px;
+  font-size: 0.8rem;
+  padding: 4px 20px;
+}
+ .voluntary{
+  position: absolute;
+  top: 462px;
+  right: 65px;
+  font-size: 0.8rem;
+  padding: 4px 20px;
+}
+.cluster{
+  position: absolute;
+  top: 620px;
+  right: 88px;
+  width: 355px;
+  border-radius: 20px;
+  height: 26px;
+  padding: 4px;
+  }
+
+  .progress-icon{
+    
+    height:120px;
+  }
+
+
+
+/* CSS for interactive map */
+ul#continents {
+ list-style: none;
+ background: url(../images/map3.png) no-repeat 0 0;
+ position: relative;
+ width: 542px;
+ height: 618px;
+ margin: 0;
+ padding: 0;
+ background-size: cover;
+}
+ul#continents li {
+ border: 0px solid #000;
+ position: absolute;
+}
+#jammu {
+  width: 140px;
+  height: 130px;
+  top: 0px;
+  left: 100px;
+}
+ 
+#himachal {
+ width: 110px;
+    height: 72px;
+    top: 82px;
+    left: 123px;
+}
+ 
+#punjab {
+  width: 60px;
+  height: 66px;
+  top: 98px;
+  left: 114px;
+}
+ 
+#uttrakhand {
+  width: 88px;
+  height: 70px;
+  top: 119px;
+  left: 184px;
+}
+ 
+#haryana {
+  width: 69px;
+  height: 70px;
+  top: 137px;
+  left: 114px;
+}
+ 
+#up {
+     width: 139px;
+    height: 140px;
+    top: 143px;
+    left: 172px;
+}
+#goa {
+  width: 40px;
+  height: 37px;
+  top: 433px;
+  left: 71px;
+}
+#telangana {
+  width: 89px;
+  height: 91px;
+  top: 355px;
+  left: 166px;
+}
+#maharashtra {
+  width: 161px;
+  height: 128px;
+  top: 308px;
+  left: 80px;
+}
+#mp {
+  width: 168px;
+    height: 129px;
+    top: 213px;
+    left: 110px;
+}
+#kerala {
+      width: 62px;
+    height: 98px;
+    top: 497px;
+    left: 105px;
+}
+#gujarat {
+      width: 119px;
+    height: 100px;
+    top: 249px;
+    left: 0px;
+}
+#rajasthan {
+          width: 143px;
+    height: 145px;
+    top: 144px;
+    left: 31px;
+}
+#tamilnadu {
+    width: 87px;
+    height: 120px;
+    top: 485px;
+    left: 143px;
+}
+#andhra {
+    width: 162px;
+    height: 135px;
+    top: 369px;
+    left: 154px;
+}
+#karnataka {
+  width: 107px;
+  height: 141px;
+  top: 382px;
+  left: 81px;
+}
+#chattisgarh {
+  width: 105px;
+  height: 127px;
+  top: 271px;
+  left: 202px;
+}
+#jharkhand {
+  width: 106px;
+  height: 65px;
+  top: 246px;
+  left: 265px;
+}
+#orissa {
+  width: 106px;
+  height: 92px;
+  top: 303px;
+  left: 253px;
+}
+#bengal {
+  width: 61px;
+  height: 96px;
+  top: 230px;
+  left: 338px;
+}
+#bihar {
+  width: 84px;
+  height: 67px;
+  top: 201px;
+  left: 287px;
+}
+#assam {
+  width: 110px;
+  height: 84px;
+  top: 181px;
+  left: 406px;
+}
+#sikkim {
+  width: 52px;
+  height: 27px;
+  top: 185px;
+  left: 368px;
+}
+#mizoram {
+  width: 66px;
+  height: 54px;
+  top: 263px;
+  left: 450px;
+}
+#manipur {
+  width: 66px;
+    height: 36px;
+    top: 234px;
+    left: 464px;
+}
+#arunachal {
+  width: 112px;
+    height: 59px;
+    top: 149px;
+    left: 434px;
+}
+#nagaland {
+  width: 66px;
+    height: 35px;
+    top: 203px;
+    left: 470px;
+}
+#meghalaya {
+  width: 75px;
+    height: 27px;
+    top: 225px;
+    left: 406px;
+}
+#tripura {
+          width: 55px;
+    height: 36px;
+    top: 257px;
+    left: 399px;
+}
+#delhi {
+    width: 29px;
+    height: 30px;
+    top: 162px;
+    left: 160px;
+}
+ul#continents li a{
+ display: block;
+ height: 100%;
+ text-decoration: none;
+}
+ul#continents li a:hover {
+ background: url(../images/map3.png) no-repeat 0 0;
+}
+ 
+ul#continents li#jammu a:hover {
+ background-position: -8px -674px;
+}
+ul#continents li#himachal a:hover {
+ background-position: -179px -697px;
+}
+ul#continents li#punjab a:hover {
+ background-position: -340px -697px;
+}
+ul#continents li#uttrakhand a:hover {
+ background-position: -450px -704px;
+}
+ul#continents li#haryana a:hover {
+ background-position: -29px -843px;
+}
+ul#continents li#up a:hover {
+ background-position: -180px -832px;
+}
+ul#continents li#goa a:hover {
+ background-position: -374px -897px;
+}
+ul#continents li#telangana a:hover {
+ background-position: -463px -878px;
+}
+ul#continents li#maharashtra a:hover {
+ background-position: -16px -992px;
+}
+ul#continents li#mp a:hover {
+ background-position: -236px -992px;
+}
+ul#continents li#kerala a:hover {
+ background-position: -471px -1024px;
+}
+ul#continents li#gujarat a:hover {
+ background-position: -15px -1201px;
+}
+ul#continents li#rajasthan a:hover {
+ background-position: -185px -1193px;
+}
+ul#continents li#tamilnadu a:hover {
+ background-position: -419px -1193px;
+}
+ul#continents li#andhra a:hover {
+ background-position: -10px -1375px;
+}
+ul#continents li#karnataka a:hover {
+ background-position: -206px -1379px;
+}
+ul#continents li#chattisgarh a:hover {
+ background-position: -421px -1383px;
+}
+ul#continents li#jharkhand a:hover {
+ background-position: -7px -1647px;
+}
+ul#continents li#orissa a:hover {
+ background-position: -223px -1623px;
+}
+ul#continents li#bengal a:hover {
+ background-position: -433px -1618px;
+}
+ul#continents li#bihar a:hover {
+ background-position: -37px -1800px;
+}
+ul#continents li#assam a:hover {
+ background-position: -201px -1800px;
+}
+ul#continents li#sikkim a:hover {
+ background-position: -441px -1822px;
+}
+ul#continents li#mizoram a:hover {
+ background-position: -65px -1972px;
+}
+ul#continents li#manipur a:hover {
+ background-position: -259px -1954px;
+}
+ul#continents li#arunachal a:hover {
+ background-position: -390px -1916px;
+}
+ul#continents li#nagaland a:hover {
+ background-position: -65px -2091px;
+}
+ul#continents li#meghalaya a:hover {
+ background-position: -220px -2083px;
+}
+ul#continents li#tripura a:hover {
+ background-position: -374px -2117px;
+}
+ul#continents li a span {
+ display: none;
+}
+ 
+ul#continents li a:hover span {
+ display: block;
+ position: relative;
+ top: 30%;
+ left: 20%;
+ font: 11px Arial, Helvetica, sans-serif;
+ color:#000;
+}
+
+
+.news{
+  min-height: 239px;
+}
+.news1{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/swachhta.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+
+}
+.news2{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/dantewara.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news3{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/edu.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news4{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/brainstorming.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news5{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/chancellor.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news6{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/cowdung.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+
+.news7{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/techday.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+
+}
+.news8{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/iisf.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news9{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/cow.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news10{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/straw.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news11{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/chancellor.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news12{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/cowdung.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+
+}
+.news-startup-swadeshi{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/swadeshi-start-ups.jpg) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-uba2{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/uba2.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-antaram{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/antaram.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-seg{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/seg.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+.news-biogas{
+  background: linear-gradient(to top, rgba(20,19,20,0.91) -1%,rgba(20,19,20,0.91) 0%,rgba(14,13,14,0.91) 2%,rgba(7,7,7,0.89) 4%,rgba(12,12,12,0.85) 9%,rgba(12,12,12,0.78) 19%,rgba(12,12,12,0.77) 20%,rgba(12,12,12,0) 50%), url(../images/news/biogas.png) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8141314', endColorstr='#000c0c0c',GradientType=0 ); /* IE6-9 */
+  background-size: cover;
+}
+/*404 error page css*/
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.notfound .notfound-404 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 170px;
+  height: 170px;
+  background: #e01818;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 0px 0px 10px #e01818 inset, 0px 0px 0px 20px #fff inset;
+  box-shadow: 0px 0px 0px 10px #e01818 inset, 0px 0px 0px 20px #fff inset;
+}
+.notfound .notfound-404 h1 {
+  font-family: 'Chango', cursive;
+  color: #fff;
+  font-size: 118px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+}
+.notfound h2 {
+  font-family: 'Chango', cursive;
+  font-size: 68px;
+  color: #222;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0px;
+  line-height: 1.1;
+}
+.notfound>div:first-child {
+  padding-left: 200px;
+  padding-top: 12px;
+  height: 170px;
+  margin-bottom: 20px;
+}
+.filter{
+  display: flex;align-items: flex-end;
+}
+.filter select {
+  max-width: 100%;
+}
+.cursor-pointer:hover{
+  cursor: pointer;
+}
+
+#data > div > nav > ul > li.page-item.active > a {
+  background-color: #cb7318;
+  border-color: #cb7318;
+}
+.position-relative{
+  position: relative;
+}
+.position-absolute{
+  position: absolute;
+}
+.text-bottom{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+}
+/*.goog-te-gadget-icon{
+  display: none;
+}*/
+.statistics-box{
+  box-shadow: 5px 5px 9px 0px #7d7b7bd6;
+}
+
+
+
+
+/* Media query css */
+
+/*CSS for mobile devises
+=========================*/
+@media screen and (max-width: 575px) {
+    .statistics {
+        text-align: center;
+    }
+
+}
+.headersloganmob{
+  display: none;
+}
+.zonesmob{
+  display: none;
+}
+@media screen and (max-width: 425px) {
+  .headerlink > .headerhindi, .headerlink > .headerenglish {
+  font-size: 1rem!important;
+  }
+  .headerlink > .headerslogan{
+    display:none;
+  }
+  .headersloganmob{
+    display: block;
+    text-align: center!important;
+    width: 100%;
+    color: #212529;
+    font-size: 0.8rem!important;
+  }
+  .headerlogo{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .lang{
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+  }
+  .searchbox{
+    width: 120px;
+    margin-bottom: 4px;
+  }
+  .btn-center-mob{
+    text-align: center;
+  }
+  .zones{
+    display: none;
+  }
+  .zonesmob{
+  display: block;
+  margin: 20px 0px 30px 0px;
+  }
+  .network{
+    margin-bottom: 20px;
+  }
+  .footer-uba{
+    text-align: center!important;
+  }
+ 
+  .footerdesk{
+    display: none!important;
+  }
+  .footermob{
+    display: block!important;
+  }
+}
