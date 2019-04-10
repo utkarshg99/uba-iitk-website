@@ -81,12 +81,12 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Themes</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="./organic_farming">Organic Farming</a>
-            <a class="dropdown-item" href="./water_management">Water Management</a>
-            <a class="dropdown-item" href="./renewable_energy">Energy Sources</a>
-            <a class="dropdown-item" href="./artisans_and_livelihood">Artisans, Industries & livelihood</a>
-            <a class="dropdown-item" href="./basic_amenities">Basic amenities</a>
-            <a class="dropdown-item" href="./convergence">convergence</a>
+            <a class="dropdown-item" href="./html/organic_farming.html">Organic Farming</a>
+            <a class="dropdown-item" href="./html/water_management.html">Water Management</a>
+            <a class="dropdown-item" href="./html/renewable_energy.html">Energy Sources</a>
+            <a class="dropdown-item" href="./html/artisans_and_livelihood.html">Artisans, Industries & livelihood</a>
+            <a class="dropdown-item" href="./html/basic_amenities.html">Basic amenities</a>
+            <a class="dropdown-item" href="./html/convergence.html">convergence</a>
 
           </div>
         </li>
@@ -200,7 +200,7 @@
 <div class="row" id="themesvue">
 
     <div :class="th.style" v-for="th in theme">
-        <a href="#">
+        <a :href="th.linkweb">
           <img :src="th.url" class="img-fluid grow w-100" :alt="th.name" title="" />
         </a>
         <div class="captionb">{{th.heading}}</div>
@@ -220,7 +220,7 @@
 </div>
 
 <!-- Progress -->
-<h3 class="mt-5 header" id="progress">Progress</h3>
+<!-- <h3 class="mt-5 header" id="progress">Progress</h3>
 <div class="row" id="progress-vue">
   <div class="col-md-4 col-sm-6 col-xs-12 my-5 text-center" v-for="prog in progcont">
     <a :href="prog.link">
@@ -228,7 +228,7 @@
     </a>
     <div class="captionb">{{prog.heading}}</div>
   </div>
-</div>
+</div> -->
 
 <!--Latest news-->
 <div id="newsslider" class="carousel slide" data-ride="" data-interval="false">
@@ -477,13 +477,13 @@
             <h4>Unnat Bharat Abhiyan</h4>
             <div>
               <p class="d-inline-block">
-                <i class="fa fa-map-marker fa-lg mr-2" aria-hidden="true"></i>National Coordinator, Unnat Bharat Abhiyan<br/>Indian Institute of Technology Delhi,<br/>Hauz Khas, New Delhi-110016
+                <i class="fa fa-map-marker fa-lg mr-2" aria-hidden="true"></i>Regional Coordinator, Unnat Bharat Abhiyan<br/>Indian Institute of Technology Kanpur,<br/>Kalyanpur, Kanpur-208016
               </p>
             </div>
 
             <div>
               <p class="d-inline-block">
-                <a href="mailto:unnatbharatabhiyaniitd@gmail.com" class="a-unstyled"><i class="fa fa-envelope mr-2" aria-hidden="true"></i> unnatbharatabhiyaniitd@gmail.com</a>
+                <a href="mailto:uba@iitk.ac.in" class="a-unstyled"><i class="fa fa-envelope mr-2" aria-hidden="true"></i> uba@iitk.ac.in</a>
               </p>
             </div>
 
@@ -514,7 +514,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <!-- Lightbox javascript -->
-<script src="/app/webroot/javascript/lightbox-plus-jquery.js"></script>
+<script src="./js/lightbox-plus-jquery.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
